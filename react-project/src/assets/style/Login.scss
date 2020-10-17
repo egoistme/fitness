@@ -1,0 +1,45 @@
+.login-box-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding: 0;
+    .login-box{
+        width: 400px;
+        label{
+            a{
+                color: #ccc;
+                margin-left: 3px;
+                &:hover{
+                    color: #fff;
+                    text-decoration: underline;
+                }
+            }
+        }
+        .form-bottom-item{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            label:hover{
+                color:#1877f2;
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.adminLogin-box-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b818c;
+    .login-box{
+        width: 450px;
+        label{
+            color: antiquewhite;
+        }
+    }
+}

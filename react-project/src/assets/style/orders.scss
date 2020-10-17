@@ -1,0 +1,12 @@
+.orders-box {
+    min-width: 1000px;
+    padding: 10px;
+    margin: 0 auto;
+    user-select: none;
+    .ant-table-cell {
+        text-align: center;
+    }
+    .ant-table {
+        min-height: 705px;
+    }
+}
