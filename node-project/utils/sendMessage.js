@@ -7,8 +7,8 @@ const SMSClient = require('@alicloud/sms-sdk')
 // const { saveCode } = require("../dao/codeDao")
 
 // ACCESS_KEY_ID/ACCESS_KEY_SECRET 根据实际申请的账号信息进行替换
-const accessKeyId = 'LTAI4GEmKrvcFgvQFPFfHEa1'
-const secretAccessKey = 'izHV9x1smnhh1eaOpFsPhXLkwOzj7u'
+const accessKeyId = ''
+const secretAccessKey = ''
 const getCode = require('./randomCode')
 //初始化sms_client
 let smsClient = new SMSClient({accessKeyId, secretAccessKey})
